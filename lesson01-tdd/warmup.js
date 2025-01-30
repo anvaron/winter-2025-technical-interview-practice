@@ -18,4 +18,5 @@
 //        *   *
 //        *****
 
-// Console.log the result of each of the above functions to test them. Run your file with node warmup.js and check the terminal for the correct output.
+// Console.log the result of each of the above functions to test them. 
+// Run your file with node warmup.js and check the terminal for the correct output.

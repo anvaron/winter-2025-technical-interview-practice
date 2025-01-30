@@ -4,7 +4,10 @@
 
 ## Written Question (5 minutes)
 
-Question: Imagine you have a collection of vintage records that you like to listen to, but you want to make the records you liked the most easiest to access. How would you organize your collection so that your favorite records are quickly reachable? Consider how you might want to retrieve a record based on how much you like it, rather than just randomly picking. What benefits would this type of organization provide?
+Question: Imagine you have a collection of vintage records that you like to listen to, but you want to make the records you liked the most easiest to access.
+How would you organize your collection so that your favorite records are quickly reachable?
+Consider how you might want to retrieve a record based on how much you like it, rather than just randomly picking.
+What benefits would this type of organization provide?
 
 ## Lecture Content (20 minutes)
 
@@ -21,11 +24,11 @@ To create an array in JavaScript, we can use the array literal syntax `[]` or th
 ```javascript
 // Using array literal syntax
 let numbers = [1, 2, 3, 4, 5];
-let fruits = ["apple", "banana", "orange"];
+let fruits = ['apple', 'banana', 'orange'];
 
 // Using Array constructor
-let colors = new Array("red", "green", "blue");
-let mixed = new Array(1, "two", { name: "John" });
+let colors = new Array('red', 'green', 'blue');
+let mixed = new Array(1, 'two', { name: 'John' });
 ```
 
 ### Accessing Array Elements
@@ -43,8 +46,8 @@ console.log(numbers[2]); // Output: 3
 Arrays are mutable, which means we can modify their elements after they are created. We can assign new values to specific elements using the index. For example:
 
 ```javascript
-let fruits = ["apple", "banana", "orange"];
-fruits[1] = "grape";
+let fruits = ['apple', 'banana', 'orange'];
+fruits[1] = 'grape';
 console.log(fruits); // Output: ['apple', 'grape', 'orange']
 ```
 
@@ -55,8 +58,8 @@ JavaScript provides several built-in methods that can be used to manipulate arra
 - `push`: Adds one or more elements to the end of an array.
 
 ```javascript
-let fruits = ["apple", "banana"];
-fruits.push("orange", "grape");
+let fruits = ['apple', 'banana'];
+fruits.push('orange', 'grape');
 console.log(fruits); // Output: ['apple', 'banana', 'orange', 'grape']
 ```
 

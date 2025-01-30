@@ -13,4 +13,14 @@ describe("checkLargestElement", () => {
     const nums = [-7, 5, -5, 1];
     expect(checkLargestElement(nums)).toBe(5);
   });
+
+  test("should return -1 if the array is empty", () => {
+    const nums = [];
+    expect(checkLargestElement(nums)).toBe(-1);
+  });
+
+  test("should return -1 if the array has a single element", () => {
+    const nums = [1];
+    expect(checkLargestElement(nums)).toBe(-1);
+  });
 });
